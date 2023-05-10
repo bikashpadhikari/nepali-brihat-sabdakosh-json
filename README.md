@@ -1,4 +1,4 @@
-# Structured JSON of Nepal Brihat Sabdakosh
+# Structured JSON of Nepali Brihat Sabdakosh
 
 This repository contains a structured JSON dump of all 122,000 words of the
 Nepali Brihat Sabdakosh (नेपाली बृहत् शब्दकोश, *Unabridged Nepali Dictionary*)
