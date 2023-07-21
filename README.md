@@ -82,6 +82,23 @@ Each `definition` can have a `grammar`, `etymology` and `senses` field.
 A `sense` is actually an HTML string, and may include examples tagged by
 a `<span class="example">`.
 
+## Example
+
+```bash
+$ curl --no-progress-meter 'https://raw.githubusercontent.com/bikashpadhikari/nepali-brihat-sabdakosh-json/main/sabdakosh.json.gz' | gunzip | jq '.[] | select(.word=="किरण")'
+{
+  "word": "किरण",
+  "definitions": [
+    {
+      "grammar": "ना.",
+      "etymology": "[सं.]",
+      "senses": [
+        "सूर्य, चन्द्र, बत्ती आदिबाट निस्किने चम्किलो मिहिन रेखा; प्रकाशबाट चारैतिर फिँजिने उज्यालो रूप; ज्योति; रश्मि; प्रभा; तेज।"
+      ]
+    }
+  ]
+}
+```
 
 ## License
 
